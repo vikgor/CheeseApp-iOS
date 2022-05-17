@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92276104282E641400DAE9DB /* EditCheeseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92276103282E641400DAE9DB /* EditCheeseView.swift */; };
+		92276108282E866F00DAE9DB /* Alert+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92276107282E866F00DAE9DB /* Alert+Helpers.swift */; };
+		9227610A282E876700DAE9DB /* AddCheeseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92276109282E876700DAE9DB /* AddCheeseView.swift */; };
+		9227610C283158DA00DAE9DB /* CenteredHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227610B283158DA00DAE9DB /* CenteredHStack.swift */; };
+		92276110283225F800DAE9DB /* CheeseObservableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227610F283225F800DAE9DB /* CheeseObservableModel.swift */; };
+		9227611228322A6E00DAE9DB /* CheeseParametersSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227611128322A6E00DAE9DB /* CheeseParametersSection.swift */; };
 		92A7E7F1282CE60D0009D0D1 /* CheeseAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7E7F0282CE60D0009D0D1 /* CheeseAppApp.swift */; };
 		92A7E7F3282CE60D0009D0D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7E7F2282CE60D0009D0D1 /* ContentView.swift */; };
 		92A7E7F5282CE60F0009D0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A7E7F4282CE60F0009D0D1 /* Assets.xcassets */; };
 		92A7E7F8282CE60F0009D0D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A7E7F7282CE60F0009D0D1 /* Preview Assets.xcassets */; };
+		92A7E804282CF9430009D0D1 /* ResourceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7E800282CF9430009D0D1 /* ResourceRequest.swift */; };
+		92A7E805282CF9430009D0D1 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7E801282CF9430009D0D1 /* CustomError.swift */; };
+		92A7E807282CF9430009D0D1 /* CheeseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7E803282CF9430009D0D1 /* CheeseRequest.swift */; };
+		92A7E80A282CF9530009D0D1 /* CheeseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7E809282CF9530009D0D1 /* CheeseModel.swift */; };
+		92A7E80C282CFA170009D0D1 /* CreateCheeseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7E80B282CFA170009D0D1 /* CreateCheeseData.swift */; };
+		92A7E80E282CFACE0009D0D1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7E80D282CFACE0009D0D1 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		921058492833E5290049228C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		92276103282E641400DAE9DB /* EditCheeseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCheeseView.swift; sourceTree = "<group>"; };
+		92276107282E866F00DAE9DB /* Alert+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Helpers.swift"; sourceTree = "<group>"; };
+		92276109282E876700DAE9DB /* AddCheeseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCheeseView.swift; sourceTree = "<group>"; };
+		9227610B283158DA00DAE9DB /* CenteredHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredHStack.swift; sourceTree = "<group>"; };
+		9227610F283225F800DAE9DB /* CheeseObservableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseObservableModel.swift; sourceTree = "<group>"; };
+		9227611128322A6E00DAE9DB /* CheeseParametersSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseParametersSection.swift; sourceTree = "<group>"; };
 		92A7E7ED282CE60D0009D0D1 /* CheeseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheeseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A7E7F0282CE60D0009D0D1 /* CheeseAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseAppApp.swift; sourceTree = "<group>"; };
 		92A7E7F2282CE60D0009D0D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92A7E7F4282CE60F0009D0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A7E7F7282CE60F0009D0D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92A7E7FE282CE9040009D0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		92A7E800282CF9430009D0D1 /* ResourceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceRequest.swift; sourceTree = "<group>"; };
+		92A7E801282CF9430009D0D1 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		92A7E803282CF9430009D0D1 /* CheeseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheeseRequest.swift; sourceTree = "<group>"; };
+		92A7E809282CF9530009D0D1 /* CheeseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseModel.swift; sourceTree = "<group>"; };
+		92A7E80B282CFA170009D0D1 /* CreateCheeseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCheeseData.swift; sourceTree = "<group>"; };
+		92A7E80D282CFACE0009D0D1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +58,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9227610D2831590000DAE9DB /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				92276107282E866F00DAE9DB /* Alert+Helpers.swift */,
+				9227610B283158DA00DAE9DB /* CenteredHStack.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9227610E2831590A00DAE9DB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				92A7E800282CF9430009D0D1 /* ResourceRequest.swift */,
+				92A7E803282CF9430009D0D1 /* CheeseRequest.swift */,
+				92A7E801282CF9430009D0D1 /* CustomError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9227611328322A8600DAE9DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92A7E80D282CFACE0009D0D1 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		92A7E7E4282CE60D0009D0D1 = {
 			isa = PBXGroup;
 			children = (
+				921058492833E5290049228C /* README.md */,
 				92A7E7EF282CE60D0009D0D1 /* CheeseApp */,
 				92A7E7EE282CE60D0009D0D1 /* Products */,
 			);
@@ -51,8 +105,15 @@
 		92A7E7EF282CE60D0009D0D1 /* CheeseApp */ = {
 			isa = PBXGroup;
 			children = (
+				92A7E7FE282CE9040009D0D1 /* Info.plist */,
 				92A7E7F0282CE60D0009D0D1 /* CheeseAppApp.swift */,
 				92A7E7F2282CE60D0009D0D1 /* ContentView.swift */,
+				92276103282E641400DAE9DB /* EditCheeseView.swift */,
+				92276109282E876700DAE9DB /* AddCheeseView.swift */,
+				9227611128322A6E00DAE9DB /* CheeseParametersSection.swift */,
+				9227611328322A8600DAE9DB /* Resources */,
+				92A7E808282CF94B0009D0D1 /* Models */,
+				92A7E7FF282CF9430009D0D1 /* Utilities */,
 				92A7E7F4282CE60F0009D0D1 /* Assets.xcassets */,
 				92A7E7F6282CE60F0009D0D1 /* Preview Content */,
 			);
@@ -65,6 +126,25 @@
 				92A7E7F7282CE60F0009D0D1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92A7E7FF282CF9430009D0D1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9227610E2831590A00DAE9DB /* Network */,
+				9227610D2831590000DAE9DB /* Presentation */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		92A7E808282CF94B0009D0D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92A7E809282CF9530009D0D1 /* CheeseModel.swift */,
+				9227610F283225F800DAE9DB /* CheeseObservableModel.swift */,
+				92A7E80B282CFA170009D0D1 /* CreateCheeseData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +217,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9227611228322A6E00DAE9DB /* CheeseParametersSection.swift in Sources */,
+				92276110283225F800DAE9DB /* CheeseObservableModel.swift in Sources */,
+				92276108282E866F00DAE9DB /* Alert+Helpers.swift in Sources */,
+				92A7E80A282CF9530009D0D1 /* CheeseModel.swift in Sources */,
+				9227610A282E876700DAE9DB /* AddCheeseView.swift in Sources */,
+				92A7E807282CF9430009D0D1 /* CheeseRequest.swift in Sources */,
 				92A7E7F3282CE60D0009D0D1 /* ContentView.swift in Sources */,
+				92A7E80C282CFA170009D0D1 /* CreateCheeseData.swift in Sources */,
+				92A7E804282CF9430009D0D1 /* ResourceRequest.swift in Sources */,
+				92276104282E641400DAE9DB /* EditCheeseView.swift in Sources */,
 				92A7E7F1282CE60D0009D0D1 /* CheeseAppApp.swift in Sources */,
+				92A7E805282CF9430009D0D1 /* CustomError.swift in Sources */,
+				92A7E80E282CFACE0009D0D1 /* Constants.swift in Sources */,
+				9227610C283158DA00DAE9DB /* CenteredHStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +362,7 @@
 				DEVELOPMENT_TEAM = J349HN2J4J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheeseApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,7 +377,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,6 +392,7 @@
 				DEVELOPMENT_TEAM = J349HN2J4J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheeseApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,7 +407,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
